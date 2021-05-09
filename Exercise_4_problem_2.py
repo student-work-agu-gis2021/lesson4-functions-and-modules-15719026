@@ -35,16 +35,20 @@ def temp_classifier(temp_celsius):
     return 2
   elif temp_celsius>=15:
     return 3
-    
+
+"""
+A function that returns a value between 0 and 3 depending on the value of "temp_celsius" received.
+"""
+
 # Use your newly created function to print the answers to the following questions:
 
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(16.5))
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-#
+print(temp_classifier(2))
 
 
 # ### Problem 2 tests
@@ -76,7 +80,7 @@ print("ok :)")
 #  - Does your function has an informative dosctring?
 
 # YOUR ANSWER HERE. Write your answer as comments
-#
+#Yes. I did it all.
 #
 #
 #
